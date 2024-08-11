@@ -80,7 +80,7 @@ class MinStack{
     constructor(){
         this.stack = [];
     }
-    push(){
+    push(val){
       var arr = [val, val];
       if(this.stack.length == 0){
         this.stack.push(arr);
